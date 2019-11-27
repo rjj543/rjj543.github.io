@@ -1,0 +1,99 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<script>
+$(document).ready(function(){
+ 
+  // hide our element on page load
+  $('#first').css('opacity', 0);
+ 
+  $('#first').waypoint(function() {
+      $('#first').addClass('fadeInLeft');
+  }, { offset: '50%' });
+  
+   $('#second').css('opacity', 0);
+ 
+  $('#second').waypoint(function() {
+      $('#second').addClass('fadeInRight');
+  }, { offset: '50%' });  
+ 
+   $('#third').css('opacity', 0);
+ 
+  $('#third').waypoint(function() {
+      $('#third').addClass('fadeInLeft');
+  }, { offset: '50%' });
+
+
+});
+</script>
+	<meta charset="utf-8">
+<title>Welcome to CaaC</title>
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand  animated fadeInLeft" href="#">
+    Computer Aided Assistance Cop  </a>
+</nav>
+<div class="jumbotron jumbotron-fluid animated pulse">
+  <div class="container">
+   <div align="center"> <img src="https://lh3.google.com/u/0/d/1vx-DHBDSA04wi4fpW1nwZiyAAGno4LME=w1280-h621-iv1"></div>
+        <h1 class="display-5" align="center">Welcome to The CaaC Initiative!</h1>
+    <p class="lead" align="center">We hope to cut down on crime through robotics.</p>
+  </div>
+</div>
+<h1 align="center" class="display-4 animated fadeInUp">What is our goal?</h1>
+
+<div class="container animated" id="first">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6m2UTJSO4mT5rBcdV3yILgcfbxIMn0BFu6Kf4GAKdbYEAllQE&s" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Robotic law enforcement have gotten a bad names from media</h2>
+            <p>We believe that robots have gotten a bad name, even though they have never really been fairly represented.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="container animated" id="second">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="https://lh3.google.com/u/0/d/1vx-DHBDSA04wi4fpW1nwZiyAAGno4LME=w1280-h621-iv1" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Welcome to CaaC!</h2>
+           <p>We stop crime just in time!</p>
+            <p>Through the use of complex AI and oversight from an officer we can detect crime through sounds as well as through AI evolution. This works through showing the robot crime scenes and it will give it a reward for each it notices correctly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="container animated" id="third">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="https://icon-library.net/images/dollar-png-icon/dollar-png-icon-10.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Our Pricing</h2>
+            <p>It may seem absurd, but our price is $1.4 million. This is because it will only be sold to the NYPD and other such law institutions. We believe that the cost is totally acceptable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
